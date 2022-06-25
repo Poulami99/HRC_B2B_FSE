@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+.topnav{
+	width:50%;
+   margin-bottom:30px;
+    padding-left:30px;
+   border-bottom:1px solid #D8D8D8;
+    color:#666666;
+   font-family:ont-family:font-family: roboto 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   line-height:5px;
+   
+   
+}
+.topnav .button1 {
+ position:absolute;
+  left:600px;
+  top:2px;
+  background-color: white;;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 0;
+  border-bottom: 1px solid #D8D8D8;
+  outline:none;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #FC7500;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:200%;
+}
+input[type=submit]:hover {
+  background-color: #FC7500;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+ 
+}
+.container .button{
+     position : absolute;
+     left:400px;
+     padding-top:30px;
+	
+}
+.col-25 {
+ margin-left:150px;
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  color:#666666;
+  font-family:font-family: roboto 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:20px;
+}
+
+.col-75 {
+  float: left;
+  width: 40%;
+  margin-top: 1px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

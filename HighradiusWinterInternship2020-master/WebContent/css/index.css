@@ -1,0 +1,124 @@
+*{
+	box-sizing:border-box;
+}
+
+.button {
+  background-color: #D8D8D8;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.button {border-radius: 8px;
+position: absolute;
+width: 100px;
+height: 25px;
+top: 60px;
+left: 220px;
+}
+.form-sign-in
+{
+	position:absolute;
+	left : 600px;
+	top : 200px;
+}
+.abc-logo{
+	position:relative;
+  	height:30px;
+  	left:300px;
+}
+.header{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 80px 80px 80px;
+}
+.boxed {
+	text-align:center;
+	position : relative;
+	top : 250px;
+	width : 430px;
+	height : 35px;
+	border-radius: 7px;
+	background-color : #8FD163;
+	color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+	box-sizing: border-box;
+}
+
+.header-logo-div{
+	text-align:left;
+}
+
+.header-text-div{
+	text-align:center;
+	position : absolute;
+	top : 130px;
+	
+
+}
+.header-button-div{
+	text-align:center
+}
+
+.txt{
+    font-family: roboto 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: #666666;   
+    font-size: 12px;
+}
+.txt1{
+	top: 100px
+    font-family-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #666666;   
+    font-size: 18px;
+    
+}
+.inp {
+    border:none;
+    border-bottom: 1px solid #F45400;
+    background-color: #cbe9f7;
+    padding: 5px 10px;
+    outline: none;
+    width: 320px
+    
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+    opacity: 1;
+ }
+ 
+ .hrc-logo{
+
+ height:30px;
+ }
+ 
+ 
+ .table{
+ border-collapse: collapse;
+    margin:25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    
+ }
+ @media only screen and (max-width:800px) {
+  /* For tablets: */
+  .form-sign-in {
+    width: 80%;
+    padding: 0;
+  }
+  .boxed {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .form-sign-in .boxed {
+    width: 100%;
+  }
+}
+
+  

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/add.css">
+</head>
+<body>
+<div class="topnav">
+<h1>ADD ORDER</h1>
+<a href="grid.jsp">
+<button class="button1">X</button>
+</a>
+</div>
+<div class="container">
+  <form  method="post" action="add.jsp">
+    <div class="row">
+      <div class="col-25">
+        <label for="oid">Order Id</label>
+      </div>
+      <div class="col-75">
+       <input type="text" name="oid">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="odate">Order Date</label>
+      </div>
+      <div class="col-75">
+        <input type="text" name="odate">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="cname">Customer Name</label>
+      </div>
+      <div class="col-75">
+         <input type="text"  name="cname">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="cid">Customer ID</label>
+      </div>
+      <div class="col-75">
+         <input type="text"  name="cid">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="oamt">Order Amount</label>
+      </div>
+      <div class="col-75">
+         <input type="text"  name="oamt">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="notes">Notes</label>
+      </div>
+      <div class="col-75">
+         <input type="text"  name="notes">
+      </div>
+    </div>
+    <div class="button">
+      <input type="submit"  value="ADD" >
+    </div>
+  </form>
+</div>
+</body>
+</html>
